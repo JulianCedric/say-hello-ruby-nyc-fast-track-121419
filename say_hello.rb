@@ -6,12 +6,12 @@
 
 # puts say_hello
 
-name = "Kent Beck"
-
-def say_hello(name)
+def say_hello(name = "Sophie")
   puts "Hello #{name}"
 end
 
-say_hello(name) 
+# say_hello(name) 
 
-say_hello("steve")
+# say_hello("steve")
+
+say_hello
