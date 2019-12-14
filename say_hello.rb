@@ -6,7 +6,7 @@
 
 # puts say_hello
 
-def say_hello(name = "Sophie")
+def say_hello(name = "Ruby programmer")
   puts "Hello #{name}"
 end
 
@@ -15,3 +15,4 @@ end
 # say_hello("steve")
 
 say_hello
+
